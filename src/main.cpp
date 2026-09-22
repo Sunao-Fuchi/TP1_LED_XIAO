@@ -1,6 +1,6 @@
 #include <Arduino.h> 
 
-int delaiMs = 200; //délai en milliseondes
+int delaiMs = 100; //délai en milliseondes
 
 void setup() { // GPIO21 = LED_BUILTIN : LED embarquée de la XIAO ESP32-S3 
     pinMode(LED_BUILTIN, OUTPUT);   // configure la broche en sortie 
